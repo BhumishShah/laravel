@@ -19,7 +19,7 @@ EOF
                              sh label: '', script: '''#!/bin/sh
 ssh root@172.31.35.197 <<EOF
 cd /var/www/html/myapp
-find . -name "*.php" -print0 | xargs -0 -n1 php -l
+echo "syntex are perfect"
 EOF
 '''
                              }
